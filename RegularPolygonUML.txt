@@ -1,0 +1,37 @@
+CLASSS NAME  - 
+RegularPolygon         
+
+DATA FIELDS-
+n: int                         
+side: double                   
+x: double                      
+y: double                     
+
+CONSTRUCTORS AND METHODS - 
+RegularPolygon()               
+RegularPolygon(n: int, side: double)
+RegularPolygon(n: int, side: double, x: double, y: double)
+getN(): int                    
+setN(n: int): void             
+getSide(): double              
+setSide(side: double): void    
+getX(): double                 
+setX(x: double): void          
+getY(): double                 
+setY(y: double): void          
+getPerimeter(): double         
+getArea(): double              
+
+OBJECTS - 
+
+polygon1: RegularPolygon
+
+polygon2: RegularPolygon
+SIDES = 6 
+SIDE LENGTH= 4 
+
+polygon3: RegularPolygon
+SIDES = 10 
+SIDE LENGTH = 4 
+X POSISTION = 5.6 
+Y POSISTION = 7.8 
