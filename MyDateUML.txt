@@ -1,0 +1,25 @@
+CLASSS NAME -
+MyDate
+
+DATA FIELDS -
+year: long 
+month: long 
+day: long 
+
+CONSTRUCTORS AND METHODS -
++ MyDate()
++ MyDate(elapsedTime: long)
++ MyDate(year: long, month: long, day: long)
++ getYear(): long 
++ getMonth(): long 
++ getDay(): long 
++ setDate(elapsedTime: long): void 
+
+OBJECTS - 
+date1: MyDate
+
+date2: MyDate
+elapsed time = 34355555133101L
+
+date3: MyDate
+elapsed time = 561555550000L
