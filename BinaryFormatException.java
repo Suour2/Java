@@ -2,6 +2,7 @@
  * module 2 assignment 3 
  * 1/19/24 
  * binary input test case w/ exception message
+ * bin2Dec.java is also part of this program
  */
 
  public class BinaryFormatException extends Exception {
