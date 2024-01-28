@@ -1,3 +1,8 @@
+/* Bailey Garrett
+ * module 2 assignment 2 
+ * 1/27/24 
+ * mydate
+ */
 public class MyDateTest {
     public static void main(String[] args) {
         // create polygons
