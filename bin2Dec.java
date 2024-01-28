@@ -2,6 +2,7 @@
  * module 2 assignment 3 
  * 1/19/24 
  * binary input test case w/ exception message
+ * BinaryFormatException is also part of this program
  */
 
 //Method to test input for binary, throw exception created if not a valid number
