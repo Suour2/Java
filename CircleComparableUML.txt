@@ -1,0 +1,59 @@
+Uml for Circle, Comparable and GeometricObject
+
+CLASSS NAME  - 
+Circle
+
+DATA FIELDS-
+Radius: double
+
+CONSTRUCTORS AND METHODS - 
++ Circle()
++ Circle(radius: double)
++ Circle(radius: double, color: String, filled: boolean)
++ getRadius(): double
++ setRadius(radius: double)
++ getArea(): double
++ getDiameter(): double
++ getPerimeter(): double
++ compareTo(otherCircle: Circle): int
++ equals(o: Object): boolean
+
+OBJECTS - 
+
+
+- NEXT -
+
+
+CLASSS NAME  - 
+Comparable
+
+DATA FIELDS-
+
+CONSTRUCTORS AND METHODS - 
++ compareTo(other: E): int
+
+OBJECTS - 
+
+
+- NEXT -
+
+
+CLASSS NAME  - 
+GeometricObject            
+
+DATA FIELDS-
+color: String
+filled: boolean
+
+CONSTRUCTORS AND METHODS - 
+ + GeometricObject() 
+ + GeometricObject(color: String, filled: boolean)
+ + getColor(): String
+ + setColor(color: String): void 
+ + isFilled(): boolean
+ + setFilled(filled: boolean): void
+ + getArea(): double
+ + getPerimeter(): double
+
+OBJECTS - 
+(User input)
